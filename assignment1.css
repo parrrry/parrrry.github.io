@@ -1,0 +1,284 @@
+html, body {
+    height: 100%;
+}
+body {
+background-color: rgb(41, 34, 27);
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: rgba(186, 199, 206, 0);
+    padding: 20px 0px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(6, 6, 6);
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+  
+img {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+}
+
+#car{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+ /* Full height */
+height: 100%;
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgba(51, 45, 54, 0.2);
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(230, 227, 227);
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    align-items:center;
+    font-family:"verdana";
+}
+
+
+
+
+
+
+
+.header1{
+    overflow: hidden;
+    background-color: rgba(186, 199, 206, 0);
+    padding: 20px 0px;
+}
+ /* Style the header links */
+ .header1 a {
+    float: left;
+    color: rgb(232, 230, 230);
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+
+
+ 
+  
+  /* Change the background color on mouse-over */
+  .header1 a:hover {
+    background-color: rgba(19, 19, 19, 0.2);
+    color: black;
+  }
+  
+
+  /* Style the active/current link*/
+  .header1 a.active {
+    background-color: rgba(5, 5, 5, 0.5);
+    color: rgb(250, 249, 249);
+  }
+  
+  /* Float the link section to the right */
+  .header1Buttons {
+    float: right;
+    align-items:center;
+    font-family:"verdana";
+}
+  
+  
+
+
+
+.main-title {
+    color:rgb(251, 248, 248);
+    text-shadow: 0 8px 0 rgb(20, 20, 20);
+    
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 10rem;
+    font-family:"verdana";
+
+}
+
+
+
+
+.card{
+   
+    box-shadow: 0 4px 8px 0 rgba(5, 3, 0, 0.5);
+    margin: 8px;
+      
+}
+
+
+.container {
+    padding: 10 16px;
+  }
+
+
+
+
+.contacts{
+    color:rgb(252, 255, 253);
+    font-size: 3rem;
+    font-family:"verdana";
+    text-shadow: 0 8px 0 rgb(20, 20, 20);
+    text-shadow: 0 8px 0 rgb(33, 173, 59);
+
+}
+
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background-color:rgba(224, 235, 240, 0.5);
+  }
+
+  .column1 {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+
+    
+  }
+
+
+#row {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 8px;
+}
+
+
+#row1 {
+   
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    background-color: rgba(0, 0, 0, 0);
+
+    margin: 1px;
+}
+
+
+
+
+
+#col {
+    text-align: center;
+    color:rgb(252, 255, 253);
+    font-size: 2rem;
+    font-family:"verdana";
+}
+#rowEvents {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    margin: 8px;
+}
+
+#col1 {
+    text-align: center;
+    color:rgb(252, 255, 253);
+    font-size: 2rem;
+    font-family:"verdana";
+
+}
+td{
+    padding: 1rem;
+}
+
+.aboutUs {
+    float: none;
+    color: rgb(232, 230, 230);
+    align-items: center;
+    text-align:center;
+    padding: 15px;
+    font-size: 30px;
+    line-height: 25px;
+    width: 100%;
+    background-color: rgba(29, 29, 27, 1);
+    font-family: "verdana";
+
+}
+
+
+
+
+
+
+
+
+.footer{
+  
+    padding: 20px 0;
+    background-color:rgba(224, 235, 240, 0.5);
+    color:#4b4c4d;
+  }
+  
+  .footer .icon {
+    text-align:center;
+    padding-bottom:5px;
+  }
+  
+  .footer .icon > a {
+    font-size:24px;
+    width:50px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer .socials {
+    margin-top:10px;
+    text-align:center;
+    font-size:30px;
+    color:rgb(12, 12, 12);
+    margin-bottom:0;
+    font-family:"verdana";
+  }
+
